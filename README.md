@@ -2,7 +2,7 @@
 
 ![TufailMir's React JS Portfolio Starter Pack](resume-screenshot.jpg?raw=true "TufailMir's React JS Portfolio Stater Pack ")
 
-### <a href="https://ufailahmadmir.netlify.app">LIVE DEMO</a>
+### <a href="https://tufailahmadmir.netlify.app">LIVE DEMO</a>
 
 ## Resume Starter Pack Description
 
