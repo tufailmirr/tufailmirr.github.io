@@ -14,13 +14,18 @@ const App = () => {
   const [resumeData, setResumeData] = useState({});
 
   useEffect(() => {
+    
     fetch("/resumeData.json")
       .then((res) => res.json())
       .then((data) => {
         setResumeData(data);
       });
+      getData()
   }, []);
-
+  const getData = async () => {
+    const result = await  fetch("https://theapicompany.com/geolocationAPI2.js?id=demo-tufailahmadmir")
+  console.log(result);
+  }
   return (
     <div className="App">
       <Header data={resumeData.main} />
