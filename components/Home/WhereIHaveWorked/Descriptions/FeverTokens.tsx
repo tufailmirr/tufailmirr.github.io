@@ -22,17 +22,17 @@ export default function FeverTokens() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Engineer <span className="text-AAsecondary">@ web3</span>
+            Software Engineer <span className="text-AAsecondary">@ Metafic</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">Mars - August 2022</span>
+          <span className="font-mono text-xs text-gray-500">March 2022 - August 2022</span>
           <span
             className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
             // set text size on style attribute
             style={{ fontSize: "0.6rem" }}
-            onClick={() => window.open("https:///www.fevertokens.io", "_blank")}
+            onClick={() => window.open("https://www.metafic.co", "_blank")}
           >
-            www.fevertokens.io
+            www.metafic.co
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

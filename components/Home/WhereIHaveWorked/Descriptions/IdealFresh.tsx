@@ -23,10 +23,18 @@ export default function IdealFresh() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Software Developer <span className="text-AAsecondary">@ JavaFX</span>
+            Frontend  Developer <span className="text-AAsecondary">@ Graphicweave</span>
           </span>
           {/* Date */}
-          <span className="font-mono text-xs text-gray-500">June - August 2021</span>
+          <span className="font-mono text-xs text-gray-500">Mar 2021 - Jan 2022</span>
+          <span
+            className="font-mono text-xs text-AAsecondary hover:cursor-pointer"
+            // set text size on style attribute
+            style={{ fontSize: "0.6rem" }}
+            onClick={() => window.open("https://www.graphicweave.com", "_blank")}
+          >
+            www.graphicweave.com
+          </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
             {/* Tasks Description 1 */}

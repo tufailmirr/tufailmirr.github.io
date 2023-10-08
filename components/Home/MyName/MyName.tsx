@@ -29,7 +29,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Anaflous Abdellatif.
+        Tufail Ahmad Mir.
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
@@ -71,7 +71,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="mt-12"
       >
-        <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+        <a href={"/Resume1.pdf"} target={"_blank"} rel="noreferrer">
           <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
             Check out my resume!
           </button>

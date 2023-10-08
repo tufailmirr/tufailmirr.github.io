@@ -29,8 +29,8 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I am a passionate software engineer and problem solver, dedicated to
-                creating impactful codes that thrive on the internet. My journey in computer science began in 2009 when
+                Hello! My name is Tufail, and I am a passionate software engineer and problem solver, dedicated to
+                creating impactful codes that thrive on the internet. My journey in computer science began in 2015 when
                 I delved into the world of Ethical Hacking using BackTrack OS. Little did I know that programming skills
                 would become essential in pursuing this interest, marking the start of my programming journey.
               </span>
@@ -39,10 +39,10 @@ export default function AboutMe(props) {
               <span className="text-gray-400 ">
                 Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
                 refine my expertise in desktop and web development. In the realm of{" "}
-                <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
+                <span className="text-AAsecondary">FrontEnd development</span>, I am dedicated to pushing boundaries and driving
                 advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
+                <span className="text-AAsecondary">Aurodigital</span>, where I played a key role in releasing an aggregated digital asset management Saas platform{" "}
+                <span className="text-AAsecondary"></span> , my passion for web3 and continuous
                 learning drives me to make a positive impact and advance technology.
               </span>
             </div>
@@ -102,7 +102,7 @@ export default function AboutMe(props) {
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={"/img/img.jpeg"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
