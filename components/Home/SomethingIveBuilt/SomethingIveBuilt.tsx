@@ -87,7 +87,6 @@ export default function SomethingIveBuilt() {
                 />
               </div>
             </div>
-
             <div
               className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
             col-span-8 flex flex-col items-start md:items-end space-y-3"
