@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 const Startup = (props) => {
