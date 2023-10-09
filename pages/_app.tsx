@@ -1,3 +1,4 @@
+'use client'
 import "../styles/globals.css";
 import { Analytics } from '@vercel/analytics/react';
 import AppContext from "../components/AppContextFolder/AppContext";
