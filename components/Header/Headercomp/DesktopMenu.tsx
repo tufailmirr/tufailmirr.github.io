@@ -17,7 +17,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         transition={{
           type: "spring",
           duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 9.4,
+          delay: props.finishedLoading ? 0 : 1.4,
         }}
         className=" text-AAsecondary"
        
@@ -38,7 +38,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         transition={{
           type: "spring",
           duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 9.7,
+          delay: props.finishedLoading ? 0 : 1.7,
         }}
         className="text-AAsecondary"
        
@@ -60,7 +60,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         transition={{
           type: "spring",
           duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 9.8,
+          delay: props.finishedLoading ? 0 : 1.8,
         }}
         className="text-AAsecondary"
       >
@@ -82,7 +82,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         transition={{
           type: "spring",
           duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 10,
+          delay: props.finishedLoading ? 0 : 2,
         }}
         className="text-AAsecondary"
       >
@@ -90,7 +90,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
          &gt; 04. <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">Contact</span>
         </ReactScrollLink>
       </motion.span>
-      <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
+      <a href={"/Resume1.pdf"} target={"_blank"} rel="noreferrer">
       <motion.button
         initial={{
           y: -40,
@@ -103,7 +103,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
         transition={{
           type: "spring",
           duration: props.finishedLoading ? 0 : 1.2,
-          delay: props.finishedLoading ? 0 : 10.2,
+          delay: props.finishedLoading ? 0 : 2.2,
         }}
         // onClick={()=>{router.push("/resume.pdf")}}
         className="text-AAsecondary border border-spacing-2 py-2 px-3 rounded-sm border-AAsecondary hover:bg-ResumeButtonHover"

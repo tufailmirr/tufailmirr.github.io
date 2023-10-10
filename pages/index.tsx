@@ -43,16 +43,16 @@ export default function Home() {
     //   setShowThisCantBeReached(false);
     // }, 5400);
     // ? INFORMATIONAL next function will show the component after changing the state of ShowMe
-    setTimeout(() => {
+    // setTimeout(() => {
       setShowElement(false);
       setShowMe(true);
       context.sharedState.finishedLoading = true;
       context.setSharedState(context.sharedState);
-    }, 6000);
+    // }, 6000);
   }, [context, context.sharedState]);
 
   useEffect(() => {
-    Aos.init({ duration: 1000, once: true });
+    Aos.init({ duration: 2000, once: true });
   }, []);
 
   console.log("Portfolio Rendered...");
