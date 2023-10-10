@@ -1,3 +1,4 @@
+'use client'
 import React, { useContext,useState, useEffect, useRef } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
@@ -256,7 +257,8 @@ export default function Page() {
                     updatingLocation ? "hidden" : ""
                   } h-full w-full z-10`}
                 >
-                  <Map lat={location[0]} lon={location[1]} />
+                 
+                  {/* <Map lat={location[0]} lon={location[1]} /> */}
                 </div>
               </div>
               <div className="flex flex-col space-y-2 items-center text-center">
