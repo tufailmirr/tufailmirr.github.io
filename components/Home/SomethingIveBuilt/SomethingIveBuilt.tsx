@@ -482,14 +482,16 @@ export default function SomethingIveBuilt() {
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right">
-                  Everywhere Agents is an international platform for
-                  {" "} <span className="text-AAsecondary">
-                   hiring
-                   </span>{" "}
-                  people to do jobs ranging from representation in business
-                  meetings to daily chores like getting your  <span className="text-AAsecondary"> groceries, plumbing
-                  your bathroom, delivering your parcels</span>, or if need be,
-                  assisting a loved one to the hospital in your absence 
+                  Everywhere Agents is an international platform for{" "}
+                  <span className="text-AAsecondary">hiring</span> people to do
+                  jobs ranging from representation in business meetings to daily
+                  chores like getting your{" "}
+                  <span className="text-AAsecondary">
+                    {" "}
+                    groceries, plumbing your bathroom, delivering your parcels
+                  </span>
+                  , or if need be, assisting a loved one to the hospital in your
+                  absence
                 </p>
               </div>
               <ul
@@ -574,31 +576,33 @@ export default function SomethingIveBuilt() {
                   rel="noreferrer"
                 >
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                   Everywhere Agents
+                    Everywhere Agents
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                 
                   <span className="text-AAsecondary">
-                  EA Agent is an international platform 
+                    EA Agent is an international platform
                   </span>{" "}
-                 for taking up simple tasks and short jobs to earn money in your free time. Take up simple jobs that match your skills, build your profile, meet new clients and earn money at your own ease. Learn new skills and be of service to those around you all the while making yourself money.
-
-What you will love about EW Agent:
-<span className="text-AAsecondary">
-<br/>
-1. Easy to use interface
-<br/>
-2. Search jobs based on location and skills
-<br/>
-3. Take up jobs that you like for the price that you want
-<br/>
-4. Chat in real time with your client
-<br/>
-5. Get paid through secure transactions with PayPal
-</span>
+                  for taking up simple tasks and short jobs to earn money in
+                  your free time. Take up simple jobs that match your skills,
+                  build your profile, meet new clients and earn money at your
+                  own ease. Learn new skills and be of service to those around
+                  you all the while making yourself money. What you will love
+                  about EW Agent:
+                  <span className="text-AAsecondary">
+                    <br />
+                    1. Easy to use interface
+                    <br />
+                    2. Search jobs based on location and skills
+                    <br />
+                    3. Take up jobs that you like for the price that you want
+                    <br />
+                    4. Chat in real time with your client
+                    <br />
+                    5. Get paid through secure transactions with PayPal
+                  </span>
                 </p>
               </div>
               <ul
